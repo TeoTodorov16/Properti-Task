@@ -30,9 +30,9 @@ class App extends Component {
   convertToRoman (num) {
     var nums = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 }
     var romans = ''
-    var invaild = 'The input must be a Number and in the range of 1 - 4999'
+    var invaild = 'The input must be a Number and in the range of 1 - 1000'
 
-    if (num > 4999 || isNaN(num) || num === 0) {
+    if (num > 1000 || isNaN(num) || num === 0) {
       return invaild
     } else {
       for (var i in nums) {
@@ -55,7 +55,7 @@ class App extends Component {
           <div className='input'>
             <input
               className='textBox'
-              placeholder='The input must be in the range of 1 - 4999'
+              placeholder='The input must be in the range of 1 - 1000'
               type='text'
               onChange={this.handleSubmit}
               value={this.state.inputNum}
