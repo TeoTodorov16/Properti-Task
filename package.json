@@ -1,0 +1,30 @@
+{
+  "name": "roman-number-converter",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://quinn-h.github.io/roman-number-converter/",
+  "devDependencies": {
+    "enzyme": "^2.7.1",
+    "gh-pages": "^0.12.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts": "0.9.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-clipboard.js": "^1.0.1",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}

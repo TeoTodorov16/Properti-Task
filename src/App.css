@@ -1,0 +1,27 @@
+.textBox
+{
+  height:50px;
+  width:300px;
+}
+
+.span12 {
+    text-align:center;
+    margin-top: 150px
+}
+
+.input {
+  margin-top: 35px;
+}
+
+body {
+  background-image: url('../public/1.jpg')
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  padding-top: 100px;
+}
