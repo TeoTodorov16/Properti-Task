@@ -2,7 +2,7 @@
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M. This is an ReactJS application that i did of Natural Number to Roman Numeral conversion.
 
 ## Features
-- Input field for the user to enter between 1 and 1000. If you add lets say 10001 it will display a message you cant.
+- Input field for the user to enter between 1 and 1000. If you add lets say 1001 it will display a message you cant.
 - Entered number will converted to Roman Numeral.
 - Output section.
 - Copy Roman Numeral with Button.
